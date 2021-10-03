@@ -19,6 +19,7 @@ class ProductGatewayTest {
         val body = PactDslJsonBody()
             .stringType("id", "123")
             .stringType("name", "123-pro")
+            .stringType("version", "0.1")
 
         return builder
             .given("product for given id is present in system")

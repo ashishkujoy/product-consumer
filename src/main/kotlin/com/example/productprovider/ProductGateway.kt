@@ -21,4 +21,4 @@ class ProductGateway {
     }
 }
 
-data class Product(val id: String, val name: String)
+data class Product(val id: String, val name: String, val version: String)
