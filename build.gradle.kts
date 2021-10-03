@@ -56,6 +56,7 @@ pact {
         pactBrokerUsername = System.getenv("PACT_BROKER_USERNAME")
         pactBrokerPassword = System.getenv("PACT_BROKER_PASSWORD")
         tags = listOf(getGitBranch())
+        version = getGitBranch()
     }
 }
 
